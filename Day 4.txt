@@ -1,0 +1,49 @@
+ LINUX:
+-> OS, Basic commands, cp & mv, vi editor, tar file and compression
+->how to host a static website on a server => Linux machine
+
+Git:
+It's a software we use on daily basis
+It's a software which manages small to smallest changes in our file/folder
+It is a version control system (version means small to small change)
+It also helps in collaboration. Or we can say that git is an collaborative tool
+WORKING DIRECTORY where we made files
+Temporary location for files is known as STAGING AREA (used to carry folder our files)
+.GIT FOLDER in which git manages its all changes files/folders
+
+git add => command to move files from working directory to staging area
+git commit => command to move files from staging area to got folder
+
+Git Bash:
+1. always create a folder in which we will work otherwise it will affect all files in our pc
+2. git init => This basically starts the git. Or we can say it tells git that it has to manage the folder
+
+Below both commands tells git about us and this is given only once when we start using git 1st time
+3. git config --global user.name "Diya Bansal" => Tells git about our identity
+4. git config --global user.email "diya75873@gmail.com" 
+
+5.git status => To see the files which are created (visible in red color)
+6.git add <file> => To update what will be committed (visible in green color which means file s in staging area)
+7.git restore <file> => to discard changes in working directory
+8.git commit -m "<message>" => this finalises all the changes and saves the file
+9.git commit => it will open an editor and than in that we have to give message
+10.git log => 
+
+All the changes we made are done in our local system and now to save changes permanently we use GitHub i.e. a website on which we upload our file from local system
+first created a public repository > than copied the 3 commands from that (from GitHub) and pasted one by one on git bash only once we will do that and for another file to host we will only use git push command no need of all three commands to run again
+git push => to upload any file on git hub and it can be done only after git add and git commit command are executed on that file
+
+Branching:
+->creating duplicate of the file so that original code cannot get affected
+1. git branch => tells us the branches available in our system ( * -> it shows the branch in which we are currently in)
+2. git branch <branch name> => to create a new branch
+3. git checkout <branch name> => it will switch us to the branch name we gave (or to the duplicate branch we created) [Or to go into the branch we created]
+4. git add . => adds all the files on current location
+5. git add * => adds all the files in the folder
+
+git merge <duplicate branch name> => merges the duplicate branch date to main branch
+
+git clone <link of project code> => to download any code of any open source project
+
+make.com => automation software
+perplexity
